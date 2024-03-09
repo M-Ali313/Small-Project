@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF_8">
+        <title> From </title>
+        <link rel="stylesheet" href="Style.css" >
+    </head>
+
+        <body>
+            <header class="header">
+            <form action="/submit-form" method="POST">
+
+                <h2 id="h2">Job Search<span style="font-size: 13px">.com</span></h2>
+
+                <h3 id="h3"> Create Your Account</h3><br>
+                 <small id="req"><span style="color:red">*Required Information </span></small><br><br>
+
+
+                <div id="div1">
+                 <h3 id="Bs"> Basic Information </h3><br>
+
+               
+                 <div id="dive"> email <span style="color: red;">*<input required id="em" type="email"></span> </div> 
+
+                 <div id="divp"> password <span style="color: red;">* <input required  id="ps" type="password"></span>  </div>
+
+                 <div id="divR"> ReTypePassword <span style="color: red;">* <input required  id="ret" type="email"></span></div>
+
+                 <div id="divF">First Name <span style="color: red;">* <input required  id="fi" type="text"></span> </div>
+                 <div id="divP">Phone Number <span style="color: red;">* <input required   id="ph" placeholder="999-999-9999" type="text" ></span> </div>
+                 <div id="divA">Address <span style="color: red;">* <input required  id="Ad" type="text"></span> </div>
+                 <div id="divC">City <span style="color: red;">* <input required  id="Ci" type="text"></span> </div>
+
+                 <div id="divPr">Province <span style="color: red;">* <select id="Province">
+                            <option> Kabul</option>
+                            <option> Balkh</option>
+                            <option> Kandahar</option>
+                            <option> Zabul</option>
+                            <option> Nimroze</option>
+                            <option> Halmand</option>
+                            <option> Parwan</option>
+                            <option> Kapisa</option>
+                            <option> Pynsheer</option>
+                            <option> Mazar</option>
+
+                    </select>
+                </span>
+            </div>
+            <div id="divCo">Country <span style="color: red;">* <input required  id="Con" type="text"></span> </div>
+
+                </div><br>
+                <div id="div2">
+                
+                    <h2 id="d2h2">Education</h2><br>
+                    <div id="divS">School <span style="color: red;">* <input required  id="Ci" type="text"></span></div>
+                    <div id="divPro">Probram <span style="color: red;">* <input required  id="Ci" type="text"></span> </div>
+ 
+                    <div id="divEd"> Education Level<span style="color: red;">*</span> <input placeholder="select" list="Subjects" type="text" name="" id="Subject"> <datalist id="Subjects">
+                        <option>Java 1</option>
+                        <option>Java 2</option>
+                        <option>HTML</option>
+                        <option>Web 1</option>
+                        <option>Web 2</option>
+                        <option>Math</option>
+                        <option>Database</option>
+                    
+                    
+                    </datalist> </div>
+            
+            
+                    <div id="divFi"><fieldset id="fid">
+                        <legend> Education State</legend>
+                      <input type="radio"> Graduated<br>
+                      <input type="radio"> Current Enrolied<br>
+                      <input type="radio"> Did Not Braduated
+
+                    </fieldset></div>
+
+                    <div id="divGr">Graduated Date  <input required  id="Gra" type="date"></span> </div>
+
+                </div><br>
+
+
+                <div id="div3">
+                    <h2 id="div3h2"> Work Experlence </h2> <br><br>
+                    <div id="divEm">Employer : <input id="emp" type="text"></div>
+                    <div id="divJo">Job Title : <input id="Jop" type="text"></div>
+                    <div id="divJob"> <span>Job Duty</span><textarea id="text"  >
+
+                         </textarea>
+                         </div>
+                        </Label>
+
+                        <div id=" divGra"> Graduation Date : <input type="number"id="Grad"> </div>
+                       
+                    </div><br>
+
+                    <div id="div4">
+                    <h2 id="hy"> Attachments </h2>
+                   
+                    <div id="divAtt">
+                        Attachments : <input  type="file" id="in">
+                    </div>
+
+                    </div>
+                    <br>
+                    <input type="button" value="Reset" id="inpy" name="Batton">
+                    <input type="button" value="Apply" id="inp" name="Batton">
+
+                    <br><br>  
+ 
+              </form>
+            </header>
+        </body>
+</html>

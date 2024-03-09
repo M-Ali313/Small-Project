@@ -1,0 +1,346 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    padding: 10px;
+    align-items: center;
+    
+}
+header{
+    width: 450px;
+    height: auto;
+    background-color: #fff;
+    border: gray;
+    margin-left: 440px;
+ 
+}
+form{
+    float: center;
+    width: 480px;
+    height: 1700px;
+    border: 2px solid slategray;
+    background-color:#fff;
+    font-size: medium; 
+
+}
+#h2{
+   
+    background-color: rgb(226, 166, 219);
+    padding: 10px;
+
+}
+#h3{
+    padding: 20px 5px 0px 0px ;
+    background-color: #fff;
+
+}
+ #req{
+    font-size: small;
+    font:100;
+ }
+
+ #Bs{
+     background-color:gainsboro;
+     font: bold;
+     padding: 5px;
+ }
+
+ #div1{
+     background-color: antiquewhite;
+ }
+
+ #dive{
+  
+      margin-left: 78px;
+      
+}
+#em{
+    width: 210px;
+    height: 30px;
+}
+
+#divp{
+  
+    margin-left: 50px;
+    
+}
+#ps{
+    /* border: lightgray; */
+    width: 210px;
+    height: 30px;
+    /* box-shadow: 1px 1px  1px 1px; */
+}
+
+
+#divR{
+  
+    margin-left: 0px;
+    
+}
+#ret{
+    /* border: lightgray; */
+    width: 210px;
+    height: 30px;
+    /* box-shadow: 1px 1px  1px 1px; */
+}
+/*    kjhlhl */
+#divF{
+  
+    margin-left: 41px;
+    
+}
+#fi{
+    /* border: lightgray; */
+    width: 210px;
+    height: 30px;
+    /* box-shadow: 1px 1px  1px 1px; */
+}
+#divP{
+  
+    margin-left: 17px;
+    
+}
+#ph{
+    /* border: lightgray; */
+    width: 210px;
+    height: 30px;
+    /* box-shadow: 1px 1px  1px 1px; */
+}
+#divA{
+  
+    margin-left: 60px;
+    
+}
+#Ad{
+    /* border: lightgray; */
+    width: 210px;
+    height: 30px;
+    /* box-shadow: 1px 1px  1px 1px; */
+}
+#divC{
+  
+    margin-left: 83px;
+    
+}
+
+#Ci{
+    /* border: lightgray; */
+    width: 210px;
+    height: 30px;
+    /* box-shadow: 1px 1px  1px 1px; */
+
+}
+#divPr{
+  
+    margin-left: 53px;
+    
+}
+#Province{
+    /* border: lightgray; */
+    width: 210px;
+    height: 35px;
+    /* box-shadow: 1px 1px  1px 1px; */
+}
+#divCo{
+  
+    margin-left: 58px;
+    
+}
+#Con{
+    /* border: lightgray; */
+    width: 210px;
+    height: 30px;
+    /* box-shadow: 1px 1px  1px 1px; */
+}
+
+/*   strat div  tow  */
+
+
+#div2{
+    height: 400px;
+    background-color: antiquewhite;
+}
+#divS{
+  
+    margin-left:68px;
+    
+}
+
+#d2h2{
+    background-color: lightgray;
+    font: bold;
+    padding: 5px 0px 0px 5px;
+}
+#divPro{
+  
+    margin-left: 57px;
+    
+} 
+
+#Subject{
+     width: 210px;
+    height: 30px;
+}
+#divEd{
+  
+    margin-left: 1px;
+    
+} 
+
+#fid{
+    /* margin-left: 114px; */
+    width: 210px;
+    height: 120px;
+    /* box-shadow: 1px 1px 0px 0px ; */
+}
+#divFi{
+  
+    margin-left: 136px;
+    
+}
+
+#Gra{
+    width: 210px;
+    height: 30px;
+}
+
+#divGr{
+  
+    margin-left: 30px;
+    
+}
+
+
+#div3{
+    height: 360px;
+    background-color: antiquewhite;
+}
+
+#div3h2{
+    background-color: gainsboro;
+    font: bold;
+    padding: 5px 0px 0px 5px;
+}
+#divEm{
+  
+    margin-left: 58px;
+    
+}
+
+#emp{
+    /* border: lightgray; */
+    width: 210px;
+    height: 30px;
+}
+#divJo{
+  
+    margin-left: 65px;
+    
+}
+
+#Jop{
+    /* border: lightgray; */
+    width: 210px;
+    height: 30px;
+}
+#divJob{
+  
+    margin-left: 55px;
+    
+}
+#text{
+    width: 210px;
+    height: 100px;
+}
+
+#Grad{
+    width: 210px;
+    height: 30px;
+    margin-left: 14px;
+}
+#divGra{
+  
+    margin-left: 100px;
+    
+}
+
+#div4{
+    
+    height: 100px;
+
+    background-color: antiquewhite;
+}
+#hy{
+    background-color:gainsboro ;
+    font: bold;
+    padding: 5px 0px 0px 5px;
+}
+
+#divAtt{
+    
+    margin-left: 45px;
+    
+}
+
+#in{
+     background-color: #fff;
+    border:1px solid ;
+    width: 200px;
+    height: 30px;
+}
+
+
+
+#inpy{
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    margin-left: 90px;
+    border: 0px;
+    border-radius: 7px;
+}
+#inpy:hover{
+    cursor: pointer;
+    color: white;
+    background-color: blue;
+}
+
+#inp{
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    margin-left: 30px;
+    border: 0px;
+    border-radius: 7px;
+}
+#inp:hover{
+    cursor: pointer;
+    color: white;
+    background-color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
